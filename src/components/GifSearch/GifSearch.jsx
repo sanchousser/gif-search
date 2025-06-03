@@ -4,7 +4,7 @@ import css from './GifSearch.module.css'
 class GifSearch extends Component {
     state = {}
     render() {
-        return (<>
+        return (
             <header className={css.Searchbar}>
                 <form className={css.SearchForm}>
                     <button type="submit" className={css.SearchForm__button}>
@@ -20,7 +20,7 @@ class GifSearch extends Component {
                     />
                 </form>
             </header>
-        </>);
+        );
     }
 }
 
